@@ -3,7 +3,6 @@ This is the core front-end application for Vark
 
 - [Setup](#setup)
 - [How to Use Repo](#how-to-use-repo)
-- [Tech stack](#Tech Stack)
 - [Testing](#testing)
 
 
