@@ -41,7 +41,7 @@ Once the installation is done you can go ahead and start using the Repo
 
 ## How to Use Repo
 
-Open terminal or Windows powershell and run the following commands :
+Open terminal or Windows powershell and run the following commands in the desired folder you want to have the project
 
 ```bash
 git clone https://github.com/Syedkhadeer-51/Fabrik-r3f.git
