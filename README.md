@@ -1,29 +1,14 @@
-# Next.js + Jest
+# VARK - Fabrik : 
+This is the core front-end application for Vark
 
-This example shows how to configure Jest to work with Next.js.
-
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+## How to Use Repo
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
+git clone https://github.com/Syedkhadeer-51/Fabrik-r3f.git
+cd fabrik-r3f-jest
 ```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+## Setup
+### Install Node.js
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Run Jest Tests
-
-```bash
-npm test
-```
+![Node download](images/download_node.png)
