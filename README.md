@@ -10,7 +10,7 @@ This is the core front-end application for Vark
 ## Setup
 ### Install Node.js
 
-Download Node.js by visiting the Node.js website.![Node download](images/download_node.png)
+Download Node.js by visiting the Node.js website.[node](https://nodejs.org/en/download)
 Double click on the downloaded file and follow the installation instructions.
 
 To verify that Node.js is installed, open your terminal or command prompt and run the following command:
