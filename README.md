@@ -28,7 +28,7 @@ There are many browsers out there. However, At fabrik we strongly recommend Goog
 
 ### Code Editor
 
-This project is compatible with almost all the code editors, At fabrik we strongly recommend you to use Visual studio to keep the developement process uniform since we make use of extensions provided by VScode.
+This project is compatible with almost all the code editors, At fabrik we recommend you to use Visual studio to keep the developement experience uniform since we make use of extensions provided by VScode.
 [download Visual Studio Code](https://code.visualstudio.com/) and follow the installation instructions.
 
 ## How to Use Repo
