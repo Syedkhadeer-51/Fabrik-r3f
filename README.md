@@ -65,12 +65,12 @@ After making the necessary changes, commit them with a meaningful message and pu
 
 ## Tech Stack : 
 
--[Next.js](https://nextjs.org/)
--[React-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
--[Three.js](https://threejs.org/)
--[pmndrs-drei : R3f components](https://github.com/pmndrs/drei)
--[Jest](https://jestjs.io/docs/getting-started)
--[pnpm](https://pnpm.io/installation)
+- [Next.js](https://nextjs.org/)
+- [React-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [Three.js](https://threejs.org/)
+- [pmndrs-drei : R3f components](https://github.com/pmndrs/drei)
+- [Jest](https://jestjs.io/docs/getting-started)
+- [pnpm](https://pnpm.io/installation)
 
 Refer to the provided links for each framework to gain a better understanding of the folder structure and syntaxes specific to the project requirements.
 
