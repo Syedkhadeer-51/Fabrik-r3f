@@ -1,11 +1,17 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react';
+import {useFrame } from "@react-three/fiber";
+import { Mesh } from 'three'
 
 const Viewer = () => {
-  const mesh  = React.useRef();
+ 
+  const mesh = useRef<Mesh>(null!)
+  const [active,setActive] = useState(false)
+
+  useFrame(() => (mesh.current.rotation.x += 0.01));
   return (
-   <mesh>
+   <mesh scale={active ? 4 : 2} ref={mesh} onClick={() => setActive(!active)} >
     <boxGeometry/>
-    <meshPhongMaterial/>
+    <meshPhongMaterial color="royalblue"/>
    </mesh>
   )
 }

@@ -10,44 +10,38 @@ This is the core front-end application for Vark
 ## Setup
 ### Install Node.js
 
-![Node download](images/download_node.png)
+Download Node.js by visiting the Node.js website.![Node download](images/download_node.png)
+Double click on the downloaded file and follow the installation instructions.
 
-After downloading double click and install
-
-![Install node](images/install_node.png)
-
-We can check if node is installed on our local machine by opening our device terminal or command prompt.
+To verify that Node.js is installed, open your terminal or command prompt and run the following command:
 
 ```sh
 $ node -v
 ```
 ### Install pnpm
 
-Then once the node is installed its time to go ahead and install pnpm, 
-Install [pnpm](https://pnpm.io/installation)
+Once Node.js is installed, you need to install pnpm. Visit the [pnpm installation guide](https://pnpm.io/installation) guide for instructions on how to install pnpm.
 
 ### Browser
 
 There are many browsers out there. However, At fabrik we strongly recommend Google Chrome. : 
 
-Install [google chrome](https://www.google.com/chrome/)
-
 ### Code Editor
 
-Visual studio code is a very popular open-source text editor. I would recommend to [download Visual Studio Code](https://code.visualstudio.com/)
-![Vscode](images/vscode.png)
-
-Once the installation is done you can go ahead and start using the Repo
+This project is compatible with almost all the code editors, At fabrik we strongly recommend you to use Visual studio to keep the developement process uniform since we make use of extensions provided by VScode.
+[download Visual Studio Code](https://code.visualstudio.com/) and follow the installation instructions.
 
 ## How to Use Repo
 
-Open terminal or Windows powershell and run the following commands in the desired folder you want to have the project
+Open your terminal or Windows PowerShell and navigate to the desired folder where you want to have the project.
+
+Run the following commands to clone the repository and navigate to the project folder:
 
 ```bash
 git clone https://github.com/Syedkhadeer-51/Fabrik-r3f.git
 cd Fabrik-r3f
 ```
-Then once you're in Fabrik-r3f, 
+Once you're inside the Fabrik-r3f folder, install the project dependencies by running the following command: 
 
 ```bash
 pnpm install
@@ -56,26 +50,29 @@ This will install and resolve all the dependencies required to proceed with the 
 
 ## Run the developement server :
 
+To start the development server, run the following command:
+
 ```bash
 pnpm run dev
 ```
-
-Go ahead, Make your changes by creating a new branch from main 
+This will start the development server and you can begin making changes to the project
+Create a new branch from the main branch to make your changes:
 
 ```bash
 git checkout -b "branch name"
 ```
-Once done with the changes, commit them with a message an push it to the respective branch created by you, For instructions on committing and pushing changes, refer to the [Github-documentation](https://docs.github.com/en/get-started/quickstart)
+After making the necessary changes, commit them with a meaningful message and push the changes to the branch you created. For instructions on committing and pushing changes, refer to th[Github-documentation](https://docs.github.com/en/get-started/quickstart)
 
 ## Tech Stack : 
-Refer the links provided with the below frameworks to get a better understanding of the folder structure and syntaxes specific to the requirements :
 
-[Next.js](https://nextjs.org/)
-[React-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
-[Three.js](https://threejs.org/)
-[pmndrs-drei : R3f components](https://github.com/pmndrs/drei)
-[Jest](https://jestjs.io/docs/getting-started)
+-[Next.js](https://nextjs.org/)
+-[React-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+-[Three.js](https://threejs.org/)
+-[pmndrs-drei : R3f components](https://github.com/pmndrs/drei)
+-[Jest](https://jestjs.io/docs/getting-started)
+-[pnpm](https://pnpm.io/installation)
 
+Refer to the provided links for each framework to gain a better understanding of the folder structure and syntaxes specific to the project requirements.
 
 ## Testing: 
 At fabrik we prefer Test-Driven Development (TDD) approach to build components in a simple way.
