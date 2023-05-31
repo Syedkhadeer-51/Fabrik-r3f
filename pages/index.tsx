@@ -15,6 +15,8 @@ export default function Home() {
       </Head>
       {/* Viewer-section */}
       <Canvas>
+        <ambientLight intensity={0.1} />
+        <directionalLight />
         <Viewer />
       </Canvas>
     </div>
